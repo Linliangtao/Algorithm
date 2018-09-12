@@ -19,7 +19,9 @@ function quickSort(arr) {
   quickSort(arr)
   console.log(arr)
 
-  /*解决空间浪费问题，在原数组上操作*/
+  /*quickSort 函数内每次执行新创建两个数组，多次递归后会创建大量数组，在空间上存在"浪费"*/
+  /*在原数组上操作解决空间浪费问题，在原数组上操作*/
+  
   function quickSort(arr) {
     function _quickSort(arr, start, end) {
       if(start >= end) return
