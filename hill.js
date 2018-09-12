@@ -1,4 +1,4 @@
-/* 希尔排序 js 实现*/
+/* 希尔排序算法 js 实现*/
 function shellSort(arr) {
     var temp
     var len = arr.length

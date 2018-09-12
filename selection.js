@@ -1,4 +1,5 @@
-/* 选择排序 js实现*/
+/* 选择排序算法 js实现*/
+
 function sectionSort(arr) {
     for(let min = i = 0; i < arr.length - 1 /*i代表轮数*/; i++) {
       min = i

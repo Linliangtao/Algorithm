@@ -1,4 +1,4 @@
-/* 插入排序  js 实现*/
+/* 插入排序算法  js 实现*/
 function insertionSort(arr) {
     for(let i = 1; i < arr.length; i++) {
       for(let j = 0; j < i; j++) {

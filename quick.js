@@ -1,4 +1,4 @@
-/* 快速排序 js 实现*/
+/* 快速排序算法 js 实现*/
 function quickSort(arr) {
     if(arr.length <= 1) {
       return arr
